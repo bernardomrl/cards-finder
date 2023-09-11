@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# 🚀 CardsFinder
 
-First, run the development server:
+Bem-vindo ao repositório do nosso aplicativo CardsFinder! Este projeto é parte do curso de framework do COTEMIG e foi desenvolvido com Next.js (React), TypeScript, Tailwind CSS e DaisyUI.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 👾 Desenvolvedores
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ - [💻 Bernardo Meirelles](https://github.com/bernardomrl/)
+ - [💻 Viviane Storck](https://github.com/vihstorck)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+- **Exploração de Cartas:** Nosso aplicativo permite que você explore todas as cartas do jogo Clash Royale de uma API externa.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Ordenação Flexível:** Classifique as cartas por tipo, arena, elixir e raridade para encontrar rapidamente as informações de que precisa.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Pesquisa Eficiente:** Utilize nossa ferramenta de pesquisa simples para encontrar cartas específicas com facilidade.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Como contribuir
+> Sinta-se livre para enviar sugestões, correções ou adições ao código fonte dos projetos. Para contribuir:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    - Faça o fork deste repositório.
+    - Crie um branch com a sua contribuição (git checkout -b minha-contribuicao).
+    - Faça o commit das suas alterações (git commit -m 'Minha contribuição').
+    - Envie o seu branch para o repositório remoto (git push origin minha-contribuicao).
+    - Abra um pull request explicando as suas alterações.
