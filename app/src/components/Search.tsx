@@ -1,17 +1,33 @@
-import { MagnifyingGlassIcon } from "@heroicons/react/20/solid"
+'use client';
+import { useState } from 'react';
 
-export default function Search() {
+export default function Search({ onSearch }: { onSearch: (searchTerm: string) => void }) {
+    const [searchTerm, setSearchTerm] = useState<string>('');
+
+    const handleSearch = () => {
+        onSearch(searchTerm);
+    }
+
+    const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === 'Enter') {
+            handleSearch();
+        }
+    }
+
     return (
-        <div className='w-full px-6 font-inter'>
-            <div className="relative flex items-center w-full max-w-md h-12 rounded-full shadow-md transition-shadow transition-duration-600 focus-within:shadow-lg bg-white overflow-hidden pl-6 pr-4">
+        <div className="flex flex-col justify-start items-start w-full max-w-md">
+            <label htmlFor="search" className="label">
+                <span className="label-text">Encontre qualquer carta por aqui</span>
+            </label>
+            <div className="flex w-full">
                 <input
-                    className="peer h-full w-full outline-none text-sm text-black placeholder:text-black/50 pr-2"
                     type="text"
-                    id="search"
-                    placeholder="Encontre qualquer carta por aqui.." />
-                <div className="grid place-items-center h-full w-12 text-black">
-                    <MagnifyingGlassIcon className="h-6 w-6" />
-                </div>
+                    className="input input-md input-bordered bg-base-200 w-full"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    onKeyDown={handleKeyDown}
+                />
+
             </div>
         </div>
     )
