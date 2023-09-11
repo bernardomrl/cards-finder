@@ -2,8 +2,8 @@ import { MagnifyingGlassIcon } from "@heroicons/react/20/solid"
 
 export default function Search() {
     return (
-        <div className='max-w-md pl-6 mt-20 font-inter'>
-            <div className="relative flex items-center w-full h-12 rounded-full shadow-md transition-shadow transition-duration-600 focus-within:shadow-lg bg-white overflow-hidden pl-6 pr-4">
+        <div className='w-full px-6 font-inter'>
+            <div className="relative flex items-center w-full max-w-md h-12 rounded-full shadow-md transition-shadow transition-duration-600 focus-within:shadow-lg bg-white overflow-hidden pl-6 pr-4">
                 <input
                     className="peer h-full w-full outline-none text-sm text-black placeholder:text-black/50 pr-2"
                     type="text"
