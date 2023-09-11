@@ -7,7 +7,7 @@ export default function Header() {
                 </a>
             </div>
             <div className="flex-none space-x-4 p-2">
-                <a href="https://github.com/bernardomrl/atividade-framework" className="btn btn-ghost hover:text-primary normal-case font-inter">Repositório GitHub</a>
+                <a href="https://github.com/bernardomrl/cards-finder" className="btn btn-ghost hover:text-primary normal-case font-inter">Repositório GitHub</a>
             </div> 
         </header>
     )
